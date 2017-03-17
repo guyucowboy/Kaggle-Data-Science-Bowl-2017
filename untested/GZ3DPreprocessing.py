@@ -1,5 +1,4 @@
 # Please check excellent notebook of Guido Zuidhof for full explanation of this code
-%matplotlib inline
 import sys
 import numpy as np
 from numpy import *
