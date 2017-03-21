@@ -23,11 +23,19 @@ Write your own .sh script for your job, the script I use:
 8. To run interactive job, use "qsh", details to follow the instruction on BU SCC. Command currently I use:
 "qsh -l h_rt=60:00:00 = -m e -pe omp 16"
 
-In order to make tensorflow work properly on the SCC, the following command need to be used before running the program:
+9. To check the status of your job, use "qstat -u loginID"
+
+10. use qdel jobID to abort the job 
+
+11. In order to make the tensorflow work properly on the SCC, the following command need to be used before running the program:
 1. module load cuda/8.0
 2. module load cudnn/5.1
 3. module load python/3.6.0
 4. module load tensorflow/r1.0_python-3.6.0
+
+12. You could install any missing Python package on SCC using "pip install --user" + package name, be careful with the Python version you are loadin when you use this command
+
+
 
 
 
