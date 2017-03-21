@@ -11,16 +11,20 @@ https://chrome.google.com/webstore/detail/cookietxt-export/lopabhfecdfhgogdbojma
 
 5. Change the file name to whatever you want
 
+
 6. if it is .7z file, use "7za x myfiles.7z" to unzip (option x means to keep the origional directory. option e means ignore the origional directory)
 
+
 7. To run non-interactive job, use "qsub", details to follow the instruction on BU SCC. Command currently I use:
-"qsub firstPass.sh -l h_rt=60:00:00 -o -e -m e -pe omp 8"
+"qsub firstPass.sh"
+Write your own .sh script for your job, the script I use:
+
 
 8. To run interactive job, use "qsh", details to follow the instruction on BU SCC. Command currently I use:
-"qsh l h_rt=60:00:00 = -m e -pe omp 8"
+"qsh -l h_rt=60:00:00 = -m e -pe omp 16"
 
 In order to make tensorflow work properly on the SCC, the following command need to be used before running the program:
-1. module load cuba8.0
+1. module load cuda/8.0
 2. module load cudnn/5.1
 3. module load python/3.6.0
 4. module load tensorflow/r1.0_python-3.6.0
