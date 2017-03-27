@@ -17,7 +17,19 @@ https://chrome.google.com/webstore/detail/cookietxt-export/lopabhfecdfhgogdbojma
 
 7. To run non-interactive job, use "qsub", details to follow the instruction on BU SCC. Command currently I use:
 "qsub firstPass.sh"
-Write your own .sh script for your job, the script I use:
+Write your own .sh script for your job, the script I use for example:
+
+#!/bin/bash
+
+#$ -l h_rt=30:00:00 -o 150_20out.txt -e 150_20err.txt -m e -V -pe omp 16
+
+module load cuda/8.0
+module load cudnn/5.1
+module load python/3.6.0
+module load tensorflow/r1.0_python-3.6.0
+
+python firstpassProcessing.py
+python firstpassCNN.py
 
 
 8. To run interactive job, use "qsh", details to follow the instruction on BU SCC. Command currently I use:

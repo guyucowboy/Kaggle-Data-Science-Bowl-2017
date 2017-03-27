@@ -2,7 +2,7 @@
 Boston University EC500 C1 Team YAY
 
 #This branch is for image processing part
-1. Latest Update: 3/17/2017
+1. Latest Update: 3/27/2017
 
 2. Latest Content: FirstPass Algorithm tested on the BU SCC, result image in the firstpass folder
 
