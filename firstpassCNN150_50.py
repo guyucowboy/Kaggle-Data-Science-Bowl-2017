@@ -97,7 +97,7 @@ def train_neural_network(x):
         print('fitment percent:',successful_runs/total_runs)
 
         print()
-        print(sess.run(correct, feed_dict={x:[i[0] for i in validation_data], y:[i[1] for i in validation_data]}))
+        #print(sess.run(correct, feed_dict={x:[i[0] for i in validation_data], y:[i[1] for i in validation_data]}))
         print()
         print(sess.run(correct, feed_dict={x:[i for i in unlabeled_data]}))
 
