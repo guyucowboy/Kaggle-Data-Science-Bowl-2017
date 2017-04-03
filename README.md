@@ -11,7 +11,9 @@ Boston University EC500 C1 Team YAY
 4. File Structure: All the code in the tested folder were tested either on local computer or on the SCC. All the code in the untested folder were bug-free but not been verified.
 
 5. Newest result:
-![alt tag](https://github.com/ysze/Kaggle-Data-Science-Bowl-2017/blob/imageProcessing/tested/firstPass/CNNSuccess.JPG)
+![alt tag](https://github.com/ysze/Kaggle-Data-Science-Bowl-2017/blob/imageProcessing/tested/Result/Inked150-20_LI.jpg)
+![alt tag](https://github.com/ysze/Kaggle-Data-Science-Bowl-2017/blob/imageProcessing/tested/Result/Inked50-20_LI.jpg)
+
 
 
 
