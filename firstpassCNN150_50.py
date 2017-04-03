@@ -109,7 +109,7 @@ def train_neural_network(x):
         stage1 = sess.run(pred, feed_dict={x:[i[0] for i in unlabeled_data]})
         for patient,class_label in zip(unlabeled_data,stage1):
             print(patient[1], class_label)
-        d[patient[1]] = class_label
+            d[patient[1]] = class_label
         od = OrderedDict(sorted(d.items()))
 
         # Write to CSV
@@ -117,7 +117,7 @@ def train_neural_network(x):
         writer = csv.writer(f)
         writer.writerow(('id', 'cancer'))
         for patient in od:
-		  writer.writerow((patient, od[patient]))
+            writer.writerow((patient, od[patient]))
         f.close()
 
 # Run this locally:
