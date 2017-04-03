@@ -1,5 +1,7 @@
 import tensorflow as tf
 import numpy as np
+import csv
+from collections import OrderedDict
 
 IMG_SIZE_PX = 150
 SLICE_COUNT = 50
@@ -88,6 +90,8 @@ def train_neural_network(x):
 
             correct = tf.equal(tf.argmax(prediction, 1), tf.argmax(y, 1))
             accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
+            pred = tf.argmax(prediction, 1)
+            #pred2 = tf.argmax(y, 1)
 
             print('Accuracy:',accuracy.eval({x:[i[0] for i in validation_data], y:[i[1] for i in validation_data]}))
             
@@ -95,11 +99,26 @@ def train_neural_network(x):
         print('Accuracy:',accuracy.eval({x:[i[0] for i in validation_data], y:[i[1] for i in validation_data]}))
         
         print('fitment percent:',successful_runs/total_runs)
+	    print()
 
-        print()
         #print(sess.run(correct, feed_dict={x:[i[0] for i in validation_data], y:[i[1] for i in validation_data]}))
-        print()
-        print(sess.run(correct, feed_dict={x:[i for i in unlabeled_data]}))
+        #print()
+        #print(sess.run(pred2, feed_dict={x:[i for i in unlabeled_data]}))
+
+	    d = {}
+	    stage1 = sess.run(pred, feed_dict={x:[i[0] for i in unlabeled_data]})
+        for patient,class_label in zip(unlabeled_data,stage1):
+            print(patient[1], class_label)
+        d[patient[1]] = class_label
+        od = OrderedDict(sorted(d.items()))
+
+        # Write to CSV
+        f = open('stage1_submission.csv', 'wt')
+        writer = csv.writer(f)
+        writer.writerow(('id', 'cancer'))
+        for patient in od:
+		  writer.writerow((patient, od[patient]))
+        f.close()
 
 # Run this locally:
 train_neural_network(x)
