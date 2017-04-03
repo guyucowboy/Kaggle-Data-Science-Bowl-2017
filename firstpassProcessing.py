@@ -104,7 +104,7 @@ def process_unlabeled_data(patient,img_px_size=50, hm_slices=20, visualize=False
             y.imshow(each_slice, cmap='gray')
         plt.show()
         
-    return np.array(new_slices)
+    return np.array(new_slices),patient
 
 #                                               stage 1 for real.
 data_dir = './input/'
@@ -121,8 +121,8 @@ for num,patient in enumerate(patients):
         much_data.append([img_data,label])
     except KeyError as e:
         #print('This is unlabeled data!')
-        ul_img_data = process_unlabeled_data(patient,img_px_size=IMG_SIZE_PX, hm_slices=SLICE_COUNT)
-        unlabeled_data.append([ul_img_data])
+        ul_img_data,patient = process_unlabeled_data(patient,img_px_size=IMG_SIZE_PX, hm_slices=SLICE_COUNT)
+        unlabeled_data.append([ul_img_data,patient])
 
 np.save('muchdata-{}-{}-{}.npy'.format(IMG_SIZE_PX,IMG_SIZE_PX,SLICE_COUNT), much_data)
 np.save('unlabeleddata-{}-{}-{}.npy'.format(IMG_SIZE_PX,IMG_SIZE_PX,SLICE_COUNT), unlabeled_data)
