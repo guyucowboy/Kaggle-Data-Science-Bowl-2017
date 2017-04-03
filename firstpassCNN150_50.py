@@ -99,14 +99,14 @@ def train_neural_network(x):
         print('Accuracy:',accuracy.eval({x:[i[0] for i in validation_data], y:[i[1] for i in validation_data]}))
         
         print('fitment percent:',successful_runs/total_runs)
-	    print()
+        print()
 
         #print(sess.run(correct, feed_dict={x:[i[0] for i in validation_data], y:[i[1] for i in validation_data]}))
         #print()
         #print(sess.run(pred2, feed_dict={x:[i for i in unlabeled_data]}))
 
-	    d = {}
-	    stage1 = sess.run(pred, feed_dict={x:[i[0] for i in unlabeled_data]})
+        d = {}
+        stage1 = sess.run(pred, feed_dict={x:[i[0] for i in unlabeled_data]})
         for patient,class_label in zip(unlabeled_data,stage1):
             print(patient[1], class_label)
         d[patient[1]] = class_label
