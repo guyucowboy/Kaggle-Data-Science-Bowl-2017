@@ -1,0 +1,237 @@
+0
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+100
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+200
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+300
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+400
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+500
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+600
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+700
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+800
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+900
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+1000
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+1100
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+1200
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+1300
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+1400
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+1500
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+This is unlabeled data!
+Epoch 1 completed out of 10 loss: 405409758748.0
+Accuracy: 0.65
+Epoch 2 completed out of 10 loss: 28970980661.2
+Accuracy: 0.73
+Epoch 3 completed out of 10 loss: 8721490616.88
+Accuracy: 0.64
+Epoch 4 completed out of 10 loss: 5592656843.12
+Accuracy: 0.75
+Epoch 5 completed out of 10 loss: 4196262428.19
+Accuracy: 0.59
+Epoch 6 completed out of 10 loss: 2516480817.62
+Accuracy: 0.71
+Epoch 7 completed out of 10 loss: 2518396528.5
+Accuracy: 0.69
+Epoch 8 completed out of 10 loss: 1703584058.97
+Accuracy: 0.61
+Epoch 9 completed out of 10 loss: 1348641960.12
+Accuracy: 0.73
+Epoch 10 completed out of 10 loss: 1363704853.62
+Accuracy: 0.75
+Done. Finishing accuracy:
+Accuracy: 0.77
+fitment percent: 1.0

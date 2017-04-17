@@ -13,7 +13,7 @@ https://chrome.google.com/webstore/detail/cookietxt-export/lopabhfecdfhgogdbojma
 
 
 6. if it is .7z file, use "7za x myfiles.7z" to unzip (option x means to keep the origional directory. option e means ignore the origional directory)
-
+Use " 7za x stage2.7z -p'K3#&yW5WQ@hQe$6d' " to unzip files with password
 
 7. To run non-interactive job, use "qsub", details to follow the instruction on BU SCC. Command currently I use:
 "qsub firstPass.sh"
