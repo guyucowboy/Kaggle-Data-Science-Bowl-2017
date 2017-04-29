@@ -123,6 +123,15 @@ for num,patient in enumerate(patients):
         #print('This is unlabeled data!')
         ul_img_data,patient = process_unlabeled_data(patient,img_px_size=IMG_SIZE_PX, hm_slices=SLICE_COUNT)
         unlabeled_data.append([ul_img_data,patient])
+        
+# Artificially create more training data with cancer by flipping image
+for img in much_data:
+    if img[1][1] == 1:
+        coin = np.random.randint(2)
+        if coin:
+            much_data.append([np.flipud(img[0]), np.array([0,1])])
+        else:
+            much_data.append([np.fliplr(img[0]), np.array([0,1])])
 
 np.save('muchdata-{}-{}-{}.npy'.format(IMG_SIZE_PX,IMG_SIZE_PX,SLICE_COUNT), much_data)
 np.save('unlabeleddata-{}-{}-{}.npy'.format(IMG_SIZE_PX,IMG_SIZE_PX,SLICE_COUNT), unlabeled_data)
