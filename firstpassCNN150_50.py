@@ -3,8 +3,8 @@ import numpy as np
 import csv
 from collections import OrderedDict
 
-IMG_SIZE_PX = 150
-SLICE_COUNT = 50
+IMG_SIZE_PX = 70
+SLICE_COUNT = 70
 
 n_classes = 2
 batch_size = 10
@@ -51,8 +51,8 @@ def convolutional_neural_network(x):
 
     return output
 
-much_data = np.load('muchdata-150-150-50.npy')
-unlabeled_data = np.load('unlabeleddata-150-150-50.npy')
+much_data = np.load('muchdata-70-70-70.npy')
+unlabeled_data = np.load('unlabeleddata-70-70-70.npy')
 
 train_data = much_data[:-100]
 validation_data = much_data[-100:]
