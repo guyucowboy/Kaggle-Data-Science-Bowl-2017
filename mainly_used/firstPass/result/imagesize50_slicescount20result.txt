@@ -1,0 +1,9 @@
+Result:
+Total number of test dataset is: 198
+Number of right prediction is: 124
+Number of wrong prediction is: 74
+Number of right positive prediction is: 14
+Number of right negetive prediction is: 110
+Number of false negetive prediction is: 43
+Number of false postive prediction is: 31
+Overall accuracy: 0.6262626262626263

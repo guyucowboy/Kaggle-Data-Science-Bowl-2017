@@ -1,0 +1,25 @@
+150-20 4/1/2017:
+
+Epoch 1 completed out of 10 loss: 874628581586.0
+Accuracy: 0.56
+Epoch 2 completed out of 10 loss: 26775684436.5
+Accuracy: 0.6
+Epoch 3 completed out of 10 loss: 9382079568.75
+Accuracy: 0.66
+Epoch 4 completed out of 10 loss: 4809625375.28
+Accuracy: 0.66
+Epoch 5 completed out of 10 loss: 3559326404.81
+Accuracy: 0.7
+Epoch 6 completed out of 10 loss: 2519752625.5
+Accuracy: 0.73
+Epoch 7 completed out of 10 loss: 1905915797.34
+Accuracy: 0.78
+Epoch 8 completed out of 10 loss: 1542505505.81
+Accuracy: 0.66
+Epoch 9 completed out of 10 loss: 1118683089.47
+Accuracy: 0.7
+Epoch 10 completed out of 10 loss: 1098781662.94
+Accuracy: 0.72
+Done. Finishing accuracy:
+Accuracy: 0.68
+fitment percent: 1.0

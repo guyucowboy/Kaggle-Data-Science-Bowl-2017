@@ -1,0 +1,28 @@
+Epoch 1 completed out of 10 loss: 277482764056.0
+Epoch 2 completed out of 10 loss: 33697048466.0
+Epoch 3 completed out of 10 loss: 13501414767.5
+Epoch 4 completed out of 10 loss: 6334871033.66
+Epoch 5 completed out of 10 loss: 4113203581.75
+Epoch 6 completed out of 10 loss: 2865792291.75
+Epoch 7 completed out of 10 loss: 2268155206.62
+Epoch 8 completed out of 10 loss: 1673923665.63
+Epoch 9 completed out of 10 loss: 1269919693.19
+Epoch 10 completed out of 10 loss: 1422594185.33
+fitment percent: 1.0
+
+
+
+
+Result: 
+Total number of test dataset is: 198
+
+Number of right prediction is: 108
+
+Number of wrong prediction is: 90
+
+Number of false negetive prediction is: 34
+
+Number of false postive prediction is: 56
+
+Overall accuracy: 0.5454545454545454
+
